@@ -1,0 +1,9 @@
+  "Vendor"       ,"Item"             ,"Cost Per KG"   ,"Time to Deliver"  ,"Default Quantitiy Limit in KG"  ,"Additional Cost Per KG" 
+  "V1"           ,"Banana"             ,200             ,120                ,200                              ,5
+  "V2"           ,"Banana"             ,190             ,60                 ,50                               ,30
+  "V1"           ,"Broccoli"           ,160             ,120                ,10                               ,10
+  "V1"           ,"Apple"              ,500             ,120                ,10                               ,10
+  "V3"           ,"Orange"             ,200             ,120                ,20                               ,10
+  "V3"           ,"Tomato"             ,19              ,30                 ,30                               ,11
+  "V4"           ,"Tomato"             ,20              ,30                 ,50                               ,5
+  "V5"           ,"Tomato"             ,20              ,60                 ,50                               ,5
