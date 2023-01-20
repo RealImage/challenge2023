@@ -1,8 +1,8 @@
-"Vendor" ,"Item"     ,"Cost Per KG"   ,"Time to Deliver"
-"V1"     ,"Banana"   ,200             ,120
-"V2"     ,"Banana"   ,190             ,60
-"V1"     ,"Broccoli" ,160             ,120
-"V1"     ,"Apple"    ,500             ,120
-"V3"     ,"Orange"   ,200             ,120
-"V3"     ,"Tomato"   ,20              ,30
-"V4"     ,"Tomato"   ,20              ,60
+"Vendor","Item","Cost Per KG","Time to Deliver"
+"V1","Banana",200,120
+"V2","Banana",190,60
+"V1","Broccoli",160,120
+"V1","Apple",500,120
+"V3","Orange",200,120
+"V3","Tomato",20,30
+"V4","Tomato",20,60
