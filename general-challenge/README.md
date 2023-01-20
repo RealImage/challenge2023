@@ -4,8 +4,8 @@ Bob owns a fruits and vegetable shop. He is struggling to find cost-effective an
 
 You are going to help Bob to solve his problem. And, your solution will be helpful for many shop owners like Bob.
 
-Vendors specify the cost of each item in the following manner:
-Note: All costs are in rupee, Time taken to deliver is specified in minutes.
+Vendors specify the cost of each item in the following manner:  
+Note: All costs are in Rupees and time taken to deliver is specified in minutes.
 
 Table 1:
 
@@ -20,7 +20,8 @@ Table 1:
 |  V4           |  Tomato      |       20      | 60              |
 
 - Vendor V1 supplies bananas at the cost of 200 rupees per kg. However, Vendor V2 supplies the same at 190 rupees per kg and also delivers sooner than V1. Bob would prefer to buy bananas from Vendor V2.
-- Bob always prefer cost-effective vendors and considers delivery time as a second factor.
+- For tomatoes, Bob will prefer vendor V3 over V4, because V3 can deliver in 30 minutes whereas V4 will take 60 minutes.
+- Bob always prefers cost-effective vendors and considers delivery time as a second factor.
 
 *NOTE*:
 
@@ -31,7 +32,8 @@ Table 1:
 ## Problem Statement 1
 
 - Given a list of purchases, each has an item and its quantity.
-- Find the vendor for each purchase where cost is minimum and time-efficient. If a purchase is not possible, mark that purchase as not possible.
+- Find the vendor for each purchase where cost is minimum (primary objective) and time-efficient (secondary objective).
+- If a purchase is not possible, mark that purchase as not possible.
 - Quantity will always be in KG.
 - Use the data given in `vendors.csv`.
 
@@ -49,9 +51,9 @@ P3, Watermelon, 50
 
 **OUTPUT**:
 ```
-P1, Banana,     10, true,  V2,   1900,    60
+P1, Banana,     10, true,  V2,    1900,    60
 P2, Apple,      20, true,  V1,   10000,   120
-P3, Watermelon, 50, false, "",     0,       0
+P3, Watermelon, 50, false,   ,       0,     0
 ```
 
 ---
@@ -64,18 +66,18 @@ P2, Tomato,     8
 
 **OUTPUT**:
 ```
-P1, Banana,     10, true,  V2,   1900,    60
-P2, Tomato,      8, true,  V3,     160,   30
+P1, Banana,     10, true,  V2,   1900,   60
+P2, Tomato,      8, true,  V3,    160,   30
 ```
 
 ---
 
 ## Problem Statement 2
 
-Each vendor specifies the **default quantity limit in kg** they can serve, for each purchase. If a purchase quantity exceeds a given default quantity limit of a vendor, the vendor will charge an additional cost per kg in follwing manner:
+Each vendor specifies the **default quantity limit in KG** they can serve, for each purchase. If a purchase quantity exceeds a given default quantity limit of a vendor, the vendor will charge an additional cost per KG in following manner:
   
 Table 2:
-| Vendor        | Item         |  Cost Per KG  | Time to Deliver | Default Quantitiy Limit in KG | Additional Cost Per KG |
+| Vendor        | Item         |  Cost Per KG  | Time to Deliver | Default Quantity Limit in KG | Additional Cost Per KG |
 | ------------- |:------------:|:-------------:|:---------------:|:--------------------:|:----------------------:|
 |  V1           |  Banana      |       200     | 120             | 200                  | 5                      |
 |  V2           |  Banana      |       190     | 60              | 50                   | 30                     |
@@ -111,8 +113,8 @@ P3, Watermelon, 50
 
 ```
 P1, Banana,     100, true,  V1,   20000,    60
-P2, Apple,      20,  true,  V1,   10100,   120
-P3, Watermelon, 50,  false, "",     0,       0
+P2, Apple,      20,  true,  V1,   10000,   120
+P3, Watermelon, 50,  false,   ,       0,      0
 ```
 
 ---
@@ -139,7 +141,7 @@ P1:
 
 - Vendors V1 and V2 can supply bananas.
 - Via V1: `(100*200) = 20000` in 120 mins
-- Via V2: `((50*190) + (50*230)) = 21000` in 60 mins
+- Via V2: `((50*190) + (50*220)) = 20500` in 60 mins
 - Buyers look for cost-effective and then delivery time. So, choosing V1.
 
 P2:
@@ -152,6 +154,6 @@ P2:
 
 Note: Choose any vendors, if you find more than one vendor that can supply the demand at the same time, at the same cost.
 
-To submit a solution, fork this repo and send a Pull Request on Github.
+To submit a solution, fork this repo and send a Pull Request on GitHub.
 
 For any questions or clarifications, raise an issue on this repo and we'll answer your questions as fast as we can.
