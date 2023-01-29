@@ -96,7 +96,7 @@ We have provided `vendor_capacities.csv` which contains vendor, item, cost, deli
 - Quantity will always be in KG.
 - Use the data given in `vendor_capacities.csv`.
 
-**Input**: Same as Problem statement 1.
+**Input**: A CSV file input-capacities.csv. Each row contains the purchase id, item, and required quantity.
 
 **Expected Output**: Same as Problem statement 1.
 
