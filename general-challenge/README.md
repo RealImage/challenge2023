@@ -157,3 +157,9 @@ Note: Choose any vendors, if you find more than one vendor that can supply the d
 To submit a solution, fork this repo and send a Pull Request on GitHub.
 
 For any questions or clarifications, raise an issue on this repo and we'll answer your questions as fast as we can.
+
+## Criteria to Pass the Code Challenge
+1. Solving problem # 1 is the primary criteria.
+2. If you are able to solve the problem # 2, then you should.  This might be considered as a criteria, depending on the count of the candidates that manage to solve problem # 1.
+3. Once you've solved the problems, try to focus on the readability of the code.
+4. If you've addressed all the above criteria, then try to demonstrate a good understanding of the SOLID design principles, by applying them in your code wherever it makes sense.
