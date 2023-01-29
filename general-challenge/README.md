@@ -154,10 +154,6 @@ P2:
 
 Note: Choose any vendors, if you find more than one vendor that can supply the demand at the same time, at the same cost.
 
-To submit a solution, fork this repo and send a Pull Request on GitHub.
-
-For any questions or clarifications, raise an issue on this repo and we'll answer your questions as fast as we can.
-
 ## Criteria to Pass the Code Challenge
 1. Solving problem # 1 with all the objectives is the primary criteria.
 2. If you are able to solve problem # 2, then you should.  And, you will get preference. This might be considered as a criteria, depending on the count of candidates that manage to solve problem # 1.
