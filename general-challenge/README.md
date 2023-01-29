@@ -106,7 +106,8 @@ We have provided `vendor_capacities.csv` which contains vendor, item, cost, deli
 ```
 P1, Banana,     100 
 P2, Apple,      20
-P3, Watermelon, 50
+P3, Tomato,     100
+P4, Watermelon, 50
 ```
 
 **OUTPUT**:
@@ -114,7 +115,8 @@ P3, Watermelon, 50
 ```
 P1, Banana,     100, true,  V1,   20000,    60
 P2, Apple,      20,  true,  V1,   10000,   120
-P3, Watermelon, 50,  false,   ,       0,      0
+P3, Tomato,     100, true,  v4,   2250,     30
+P4, Watermelon, 50,  false,   ,       0,      0
 ```
 
 ---
