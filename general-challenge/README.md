@@ -32,7 +32,7 @@ Table 1:
 ## Problem Statement 1
 
 - Given a list of purchases, each has an item and its quantity.
-- Find the vendor for each purchase where cost is minimum (primary objective) and time-efficient (secondary objective).
+- Find the vendor for each purchase where cost is minimum (primary objective) and time-efficient (secondary objective).  Do not assign multiple vendors to a single purchase.
 - If a purchase is not possible, mark that purchase as not possible.
 - Quantity will always be in KG.
 - Use the data given in `vendors.csv`.
@@ -91,7 +91,7 @@ Table 2:
 We have provided `vendor_capacities.csv` which contains vendor, item, cost, delivery time, quantity limit, and additional cost.
 
 - Given a list of purchases, each has an item and its quantity.
-- Find the vendor for each purchase where cost is minimum and time-efficient.
+- Find the vendor for each purchase where cost is minimum (primary objective) and time-efficient (secondary objective).  Do not assign multiple vendors to a single purchase.
 - Consider the quantity limit and additional cost if a purchase quantity exceeds the quantity limit. If a purchase is not possible, mark that purchase impossible.
 - Quantity will always be in KG.
 - Use the data given in `vendor_capacities.csv`.
