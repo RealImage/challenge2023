@@ -32,7 +32,7 @@ Table 1:
 ## Problem Statement 1
 
 - Given a list of purchases, each has an item and its quantity.
-- Find the vendor for each purchase where cost is minimum (primary objective) and time-efficient (secondary objective).
+- Find the vendor for each purchase where cost is minimum (primary objective) and time-efficient (secondary objective).  Do not assign multiple vendors to a single purchase.
 - If a purchase is not possible, mark that purchase as not possible.
 - Quantity will always be in KG.
 - Use the data given in `vendors.csv`.
@@ -91,7 +91,7 @@ Table 2:
 We have provided `vendor_capacities.csv` which contains vendor, item, cost, delivery time, quantity limit, and additional cost.
 
 - Given a list of purchases, each has an item and its quantity.
-- Find the vendor for each purchase where cost is minimum and time-efficient.
+- Find the vendor for each purchase where cost is minimum (primary objective) and time-efficient (secondary objective).  Do not assign multiple vendors to a single purchase.
 - Consider the quantity limit and additional cost if a purchase quantity exceeds the quantity limit. If a purchase is not possible, mark that purchase impossible.
 - Quantity will always be in KG.
 - Use the data given in `vendor_capacities.csv`.
@@ -154,6 +154,9 @@ P2:
 
 Note: Choose any vendors, if you find more than one vendor that can supply the demand at the same time, at the same cost.
 
-To submit a solution, fork this repo and send a Pull Request on GitHub.
-
-For any questions or clarifications, raise an issue on this repo and we'll answer your questions as fast as we can.
+## Criteria to Pass the Code Challenge
+1. Solving problem # 1 with all the objectives is the primary criteria.
+2. If you are able to solve problem # 2, then you should.  And, you will get preference. This might be considered as a criteria, depending on the count of candidates that manage to solve problem # 1.
+3. Once you've solved the problems, try to focus on the readability of the code.
+4. Try to add unit tests, if you have time.
+5. If you've addressed all the above criteria, then try to demonstrate a good understanding of the SOLID design principles, by applying them in your code wherever it makes sense.
