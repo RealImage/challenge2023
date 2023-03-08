@@ -1,3 +1,19 @@
+"""
+
+We have provided `vendor_capacities.csv` which contains vendor, item, cost, delivery time, quantity limit, and additional cost.
+
+- Given a list of purchases, each has an item and its quantity.
+- Find the vendor for each purchase where cost is minimum (primary objective) and time-efficient (secondary objective).  Do not assign multiple vendors to a single purchase.
+- Consider the quantity limit and additional cost if a purchase quantity exceeds the quantity limit. If a purchase is not possible, mark that purchase impossible.
+- Quantity will always be in KG.
+- Use the data given in `vendor_capacities.csv`.
+
+**Input**: A CSV file input-capacities.csv. Each row contains the purchase id, item, and required quantity.
+
+**Expected Output**: Same as Problem statement 1.
+
+"""
+
 import pandas as pd
 df = pd.read_csv("C:/Users/3108p/code_challenge/vendor-capacities.csv")
 

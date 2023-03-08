@@ -1,3 +1,16 @@
+""" Problem Statement 1
+
+- Given a list of purchases, each has an item and its quantity.
+- Find the vendor for each purchase where cost is minimum (primary objective) and time-efficient (secondary objective).  Do not assign multiple vendors to a single purchase.
+- If a purchase is not possible, mark that purchase as not possible.
+- Quantity will always be in KG.
+- Use the data given in `vendors.csv`.
+
+**Input**: A CSV file `input.csv`. Each row contains the purchase id, item, and required quantity.
+
+**Expected Output**: A CSV file `output.csv`. Each row contains the purchase id, item, required quantity, indication if a purchase is possible (true/false), vendor, total cost, and delivery time.
+"""
+
 import pandas as pd
 df = pd.read_csv("C:/Users/3108p/code_challenge/vendors.csv")
 
